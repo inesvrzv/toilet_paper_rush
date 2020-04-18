@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Toilet Paper Rush</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Toilet Paper Rush</h1>
+  <div id="box">
+  <form id="form" >
+
+      <p>
+        <label for="rolls"><u><b>Rolls Left:  <span id="rolls"></span></b></u></label>
+        <div class="slidecontainer">
+          <input type="range" min="1" max="300" value="150" class="slider" id="rollstrange">
+        </div>
+        
+      </p>
+
+      <p>
+        <label for="days"><u><b>Days Left:  <span id="days"></span></b></u></label>
+         <div class="slidecontainer">
+          <input type="range" min="1" max="364" value="182" class="slider" id="daystrange">
+        </div>
+      </p>
+
+      <p>
+        <label for="people"><u><b>Competition:  <span id="people"></span></b></u></label>
+           <div class="slidecontainer">
+          <input type="range" min="1" max="15" value="8" class="slider" id="pplstrange">
+        </div>
+      </p>
+      <p>
+        <label for="rdays"><u><b>Role Lifespan:  <span id="rdays"></span></b></u></label>
+          <div class="slidecontainer">
+          <input type="range" min="1" max="15" value="8" class="slider" id="rdaystrange">
+        </div> 
+      </p>
+
+   
+  </form>
+  </div>
+  <p id="survival"></p>
+  <script src="app.js"></script>
+</body>
+</html>
